@@ -1,0 +1,43 @@
+.App {
+  display: flex;
+  height: 100vh;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  background-color: #282c34;
+  flex-direction: column;
+}
+
+.main-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 80vh;
+  width: 400px;
+  border: 1px solid white;
+  padding: 20px;
+}
+.list_items{
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+.todo_form{
+  
+}
+button{
+  border-radius: 50%;
+  padding: 5px;
+}
+.list_item{
+  width: 350px;
+  background: rgb(75, 75, 197);
+  margin: 10px 0px;
+  padding: 10px 20px;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+}
+.todotext{
+  flex: 1;
+}
